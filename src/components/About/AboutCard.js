@@ -18,7 +18,7 @@ function AboutCard() {
               <AiOutlineArrowRight /> Playing Basketball
             </li>
             <li className="about-activity">
-              <AiOutlineArrowRight /> listning and writing raps
+              <AiOutlineArrowRight /> Listening and writing raps
             </li>
             <li className="about-activity">
               <AiOutlineArrowRight /> Playing Games
