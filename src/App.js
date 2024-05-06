@@ -41,6 +41,9 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
+          
+          <About/>
+          <Projects/>
           <Footer />
         </div>
       </Router>
