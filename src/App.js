@@ -50,16 +50,16 @@ return (
 </Routes>
 <Navbar/>
 
-
+<About/>
+<Projects/>
+<Footer /> 
 
 </div>
 
 </Router>
 </Headroom>
 
- <About/>
-<Projects/>
-<Footer /> 
+ 
 
 </div>
 
