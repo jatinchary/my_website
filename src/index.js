@@ -4,8 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ThemeProvider } from "./Context/theme";
-import About from "./components/About/About";
-import Projects from "./components/Projects/Projects";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
