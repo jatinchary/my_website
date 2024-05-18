@@ -2,13 +2,17 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeIcon from "../../Assets/homeicons.svg";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
+import Navbar from "../navbar/Navbar";
+import Headroom from "react-headroom";
 
 import Home2 from "./Home2";
 import Type from "./Type";
 import "./home.css";
 
 function Home() {
-  return (
+  return (<>
+ 
+     
     <section>
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
@@ -29,6 +33,7 @@ function Home() {
               <div style={{ padding: 30 }} className="type">
                 <Type />
               </div>
+              
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
@@ -45,6 +50,7 @@ function Home() {
       <Home2 />
       <ScrollToTop />
     </section>
+    </>
   );
 }
 

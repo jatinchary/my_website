@@ -6,11 +6,13 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
+import NavBar from "../navbar/Navbar";
 
 import "./about.css";
 
 function About() {
   return (
+    
     <Container fluid className="about-section">
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>

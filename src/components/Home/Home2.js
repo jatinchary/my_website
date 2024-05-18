@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/Avatar.png";
 import Tilt from "react-parallax-tilt";
+import Navbar from "../navbar/Navbar";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -11,7 +12,8 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
-  return (
+  return (<>
+  
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
@@ -124,6 +126,7 @@ function Home2() {
         </Row>
       </Container>
     </Container>
+    </>
   );
 }
 export default Home2;
