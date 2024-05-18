@@ -2,8 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeIcon from "../../Assets/homeicons.svg";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
-import Navbar from "../navbar/Navbar";
-import Headroom from "react-headroom";
+
 
 import Home2 from "./Home2";
 import Type from "./Type";
